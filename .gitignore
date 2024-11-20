@@ -1,0 +1,25 @@
+# Ambientes virtuais
+.venv/
+
+# Arquivos gerados pelo Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Configurações locais do editor/IDE
+.vscode/
+.idea/
+
+# Arquivos de log ou cache
+*.log
+*.cache
+*.egg-info/
+dist/
+build/
+
+# Arquivos do Poetry
+poetry.lock
+
+#rascunhos
+draft.py

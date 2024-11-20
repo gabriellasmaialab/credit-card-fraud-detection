@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "credit-card-fraud-detection"
+version = "0.1.0"
+description = "a package to predict credit cart fraud using data series"
+authors = ["gabriella maia"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+kagglehub = "^0.3.4"
+pandas = "^2.2.3"
+numpy = "^2.1.3"
+scikit-learn = "^1.5.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
